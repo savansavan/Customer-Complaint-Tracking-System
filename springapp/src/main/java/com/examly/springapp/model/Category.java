@@ -14,6 +14,15 @@ public class Category {
 
     public Category() {}
 
+    
+
+    public Category(String categoryName, String description) {
+        this.categoryName = categoryName;
+        this.description = description;
+    }
+
+
+
     public Long getCategoryId() {
         return categoryId;
     }

@@ -16,6 +16,16 @@ public class User {
 
     public User() {}
 
+    
+
+    public User(String username, String fullName, String email, String role) {
+        this.username = username;
+        this.fullName = fullName;
+        this.email = email;
+        this.role = role;
+    }
+
+
     public Long getUserId() {
         return userId;
     }
